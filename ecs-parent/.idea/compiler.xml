@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ec-api-phone" />
+        <module name="ec-impl-member" />
+        <module name="ec-impl-phone" />
+        <module name="ec-basic-eureka" />
+        <module name="ec-api-member" />
+        <module name="ec-common-core" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ec-api-member" options="-parameters" />
+      <module name="ec-api-phone" options="-parameters" />
+      <module name="ec-basic-eureka" options="-parameters" />
+      <module name="ec-common-core" options="-parameters" />
+      <module name="ec-impl-member" options="-parameters" />
+      <module name="ec-impl-phone" options="-parameters" />
+    </option>
+  </component>
+</project>
