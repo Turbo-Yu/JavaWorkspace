@@ -8,7 +8,7 @@ spring:
     name: member-server
   #数据库相关配置
   datasource:
-    driver-class-name: com.mysql.jc.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://10.16.163.76:3306/dbtest?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai
     username: hhyu
     password: Yhh920205
