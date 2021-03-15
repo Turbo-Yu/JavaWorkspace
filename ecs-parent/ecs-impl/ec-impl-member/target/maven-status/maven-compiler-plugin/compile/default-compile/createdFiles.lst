@@ -1,0 +1,3 @@
+com\yhh\member\ApplicationMember.class
+com\yhh\member\feign\PhoneServiceFeign.class
+com\yhh\member\controller\MemberController.class
